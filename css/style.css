@@ -436,6 +436,7 @@ body {
   margin-bottom: 37px;
 }
 .design__btn-grey {
+  display: inline-block;
   font-size: 16px;
   line-height: 1.13;
   /* identical to box height, or 131% */
@@ -447,6 +448,7 @@ body {
   border-radius: 4px;
 }
 .design__btn-green {
+  display: inline-block;
   font-size: 16px;
   line-height: 1.13;
   /* identical to box height, or 131% */
