@@ -123,16 +123,22 @@ body {
   text-align: center;
 }
 
+.slider {
+  height: 100vh;
+}
+
 .slider .slick-slide {
   height: 100vh;
 }
 
 .slide img {
+  display: block;
   height: inherit;
 }
 
 .header__hero-slider {
   position: relative;
+  height: 100vh;
 }
 
 .hero__inner {
@@ -140,7 +146,6 @@ body {
   margin: 0;
   top: 50%;
   left: 50%;
-  margin-right: -50%;
   transform: translate(-50%, -50%);
 }
 
@@ -202,4 +207,29 @@ body {
 
 .slider__arrow-right {
   right: 60px;
+}
+
+.slick-dots {
+  position: absolute;
+  bottom: 70px;
+  right: 50%;
+  display: flex;
+}
+
+.slick-dots li:not(:last-child) {
+  padding-right: 10px;
+}
+
+.slick-dots button {
+  font-size: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.0001);
+  border: 1px solid #8dd83d;
+  cursor: pointer;
+}
+
+.slick-active button {
+  background: #8dd83d;
 }
