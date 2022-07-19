@@ -54,6 +54,10 @@ body {
   display: flex;
   align-items: center;
 } */
+
+.burger {
+  display: none;
+}
 .menu__list {
   display: flex;
   align-items: center;

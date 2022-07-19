@@ -1,0 +1,42 @@
+@media (max-width: 1200px) {
+  .menu__item {
+    margin-right: 25px;
+  }
+
+  .search {
+    width: 180.8px;
+  }
+}
+
+@media (max-width: 800px) {
+  .menu__list {
+    display: none;
+  }
+  .burger {
+    display: block;
+  }
+  .show-menu {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    background: #373a3c;
+    height: inherit;
+
+    z-index: 5000;
+    margin-top: 63px;
+  }
+
+  .slider__arrow-right {
+    display: none;
+  }
+
+  .slider__arrow-left {
+    display: none;
+  }
+
+  .menu__item-search {
+    display: none;
+  }
+}
